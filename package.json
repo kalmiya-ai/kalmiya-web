@@ -1,0 +1,34 @@
+{
+  "name": "kalmiya-web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "A digital personal administrator.",
+  "homepage": "https://kalmiya.io",
+  "bugs": {
+    "url": "https://github.com/kalmiya-ai/kalmiya-web/issues"
+  },
+  "license": "AGPL-3.0-or-later",
+  "author": {
+    "name": "Jesse Brooklyn Hannah",
+    "email": "brooklyn@hey.com",
+    "url": "https://jbhannah.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kalmiya-ai/kalmiya-web"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "preact": "^10.11.2"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.4.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3"
+  }
+}
