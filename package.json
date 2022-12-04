@@ -27,6 +27,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@preact/signals": "^1.1.2",
     "preact": "^10.11.2"
   },
   "devDependencies": {
